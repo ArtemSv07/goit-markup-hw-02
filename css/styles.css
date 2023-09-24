@@ -3,10 +3,6 @@ body {
     font-family: Roboto, sans-serif;
         font-weight: 400;
 
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-      
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -31,10 +27,12 @@ h2, h3 {
 /* ---------------HEADER------------------ */
 .logo {
     font-family: Raleway, sans-serif;
+        text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.166;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        
 
         color: #4D5AE5;;
        
@@ -74,6 +72,10 @@ h2, h3 {
 .mail-tel:focus {
     color: #404BBF;
 }
+
+.address-header {
+    font-style: normal;
+}
 /* ---------------/header------------------ */
 
 
@@ -88,7 +90,7 @@ h2, h3 {
     
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.071;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
 
@@ -117,9 +119,10 @@ h2, h3 {
        
             font-size: 36px;
             font-weight: 700;
-            line-height: 1.111;
+            line-height: 1.11;
             letter-spacing: 0.02em;
             text-align: center;
+            text-transform: capitalize;
      
 }
 
@@ -133,6 +136,16 @@ h2, h3 {
 }
 .team-section {
     background-color: #F4F4FD;
+}
+
+.paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.team-li {
+    background-color: #FFFFFF;
 }
 
 /* ------------------/main------------------- */
@@ -151,6 +164,10 @@ h2, h3 {
 }
 
 .paragraph-footer {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
     color: #F4F4FD;
 }
 /* ------------------/footer--------------- */
